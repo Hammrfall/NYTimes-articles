@@ -1,0 +1,35 @@
+body {
+  background-color: lightgray;
+  margin: 20px;
+}
+
+
+h1 {
+  color: whitesmoke;
+  font-family: 'Headland One', serif;  
+  font-size: 36px;
+  vertical-align: middle;
+}
+
+h2 {
+  color: darkblue;
+  font-family: 'Headland One', serif;
+  font-size: 24px;
+}
+#headercontainer {
+  background-color: darkslateblue;
+  padding: 30px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+#title {
+  vertical-align: middle;
+  margin: 10px;
+}
+
+#paper {
+  margin: 10px;
+  float: left;
+  align-content: center;
+}
