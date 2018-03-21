@@ -1,51 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NY Times articles</title>
     <!-- <link rel="stylesheet" href="assets/css/reset.css" type="text/css"> -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css" type = "text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Headland+One" rel="stylesheet">
 </head>
 
 <body>
     <div id="headercontainer">
         <img id="paper" src="assets/images/nwsppr.png" alt="newspaper" />
-        <div id="title"><h1>New York Times articles</h1></div>
+        <div id="title">
+            <h1>New York Times articles</h1>
+        </div>
     </div>
 
 
     <div class="row">
-       
+
         <div class="col-md-6 col-xs-12">
 
-            <label for="basic-url"><h2>Your research criteria</h2></label>
-            <!--Topic input -->
-            <div class="input-group mb-3">
+            <label id="instructions"for="basic-url">
+                <h2>Your research criteria</h2>
+            </label>
+            
+            <div class="input-group mb-3"> <!--Topic input -->
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="basic-addon3">Topic to research</span>
                 </div>
                 <input type="text" class="form-control" id="topic" />
             </div>
-            <!--start year input -->
-            <div class="input-group mb-3">
+            
+            <div class="input-group mb-3"> <!--start year input -->
                 <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon3">(opt) Start Year</span>
+                    <span class="input-group-text" id="basic-addon3">(optional) Start Year</span>
                 </div>
                 <input type="text" class="form-control" id="startyear" placeholder="1851 +" />
             </div>
 
-            <!--end year input -->
-            <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon3">(opt) End Year</span>
-                    </div>
-                    <input type="text" class="form-control" id="endyear" placeholder="" />
+            
+            <div class="input-group mb-3"> <!--end year input -->
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon3">(optional) End Year</span>
                 </div>
+                <input type="text" class="form-control" id="endyear" placeholder="" />
+            </div>
 
+            <button id="pullarticlesbutton" type="button" class="btn btn-primary btn-lg">Pull Articles</button>
+
+        </div>
+        <div class= "col-md-5 col-xs-12">
+            <div class="card" style="width: 12rem;">
+                <img class="card-img-top" src="assets/images/new-york-times-logo-vert.png" alt="New York Times">
+                <div class="card-body">
+                  <h5 class="card-title">Articles</h5>
+                  <p class="card-text"><p>All articles are property of the New York Times company and are to be used by permission in a non-commercial way</p><p> © 2018   The New York Times Company</p>
+                  <a href="https://www.nytimes.com/" class="btn btn-primary" target="_blank">New York Times</a>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -56,8 +74,8 @@
 
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-<script src="assets/javascript/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="assets/javascript/script.js"></script>
 </body>
 
 </html>

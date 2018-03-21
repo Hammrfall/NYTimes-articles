@@ -3,10 +3,9 @@ body {
   margin: 20px;
 }
 
-
 h1 {
   color: whitesmoke;
-  font-family: 'Headland One', serif;  
+  font-family: 'Headland One', serif;
   font-size: 36px;
   vertical-align: middle;
 }
@@ -16,11 +15,25 @@ h2 {
   font-family: 'Headland One', serif;
   font-size: 24px;
 }
+
+.card {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  font-size: 12px;
+}
+
+.card-title {
+  font-family: 'Headland One', serif;
+}
 #headercontainer {
   background-color: darkslateblue;
   padding: 30px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+}
+
+#instructions{
+  margin: 10px;
 }
 
 #title {
@@ -32,4 +45,8 @@ h2 {
   margin: 10px;
   float: left;
   align-content: center;
+}
+
+#pullarticlesbutton {
+  margin: 10px;
 }
